@@ -1,0 +1,53 @@
+{
+  "GenerateCrossPlatformAttributes": false,
+  "GenerateSelectorsForInnerElements": true,
+  "Connections": [
+    {
+      "Name": "Pixel8aAPI35",
+      "Description": null,
+      "Url": "http://127.0.0.1:4723",
+      "PlatformName": "Android",
+      "PlatformVersion": "15",
+      "DeviceName": "Pixel8aAPI35",
+      "SingleInstance": null,
+      "WaitForPageUpdate": true,
+      "Capabilities": {},
+      "GeoLocation": null,
+      "LoggingModel": {
+        "LoggingEnabled": true,
+        "VideoRecordingEnabled": false,
+        "RecordingTimeLimit": 600,
+        "VideoQuality": 1,
+        "CollectScreenshot": 0,
+        "CollectPageSource": 0
+      },
+      "HttpHeaders": {},
+      "CvServer": null,
+      "CvApiKey": null,
+      "CvUseLocalServer": false
+    }
+  ],
+  "Applications": [
+    {
+      "$id": "1",
+      "Name": "PressFit Connect",
+      "Description": null,
+      "Type": "App",
+      "Platforms": {
+        "Android": {
+          "Capabilities": {
+            "app": "C:\\\\Users\\\\OmkarCNC\\\\Downloads\\\\connect.apk",
+            "appActivity": ".MainActivity",
+            "appPackage": "com.pressfit.connect"
+          },
+          "StartPage": null
+        }
+      }
+    }
+  ],
+  "NormalizeSliderValue": true,
+  "IdsMaxAllowedLength": 40,
+  "LogsPath": "%TEMP%\\UiPath Mobile Automation Logs",
+  "Variables": {},
+  "HttpHeaders": {}
+}
